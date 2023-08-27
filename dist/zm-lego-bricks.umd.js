@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('lodash-es'), require('vue')) :
   typeof define === 'function' && define.amd ? define(['exports', 'lodash-es', 'vue'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.LegoComponents = {}, global._, global.Vue));
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.ZMLegoComponents = {}, global._, global.Vue));
 })(this, (function (exports, lodashEs, vue) { 'use strict';
 
   const commonDefaultProps = {
